@@ -10,7 +10,7 @@
   <footer class="bg-dark text-light">
     Made with 💖 by CodeWorks
   </footer>
-  <Modal id="create-house">
+  <Modal id="create-House">
     <HouseForm />
   </Modal>
   <!-- NOTE here we bring in the modal component and give it an id....this allows us to reuse this same component with unique id's -->

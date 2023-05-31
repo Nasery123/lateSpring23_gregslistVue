@@ -59,6 +59,7 @@ import { Modal } from 'bootstrap';
 import { housesService } from '../services/HousesService.js';
 import { logger } from '../utils/Logger.js';
 import Pop from '../utils/Pop.js';
+import { ref } from 'vue';
 
 export default {
     setup(){
