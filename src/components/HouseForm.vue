@@ -80,7 +80,7 @@ export default {
                     window.event.preventDefault()
                     await housesService.createHouse(formData)
                     editable.value = {}
-                    Modal.getOrCreateInstance('#create-house').hide()
+                    Modal.getOrCreateInstance('#create-House').hide()
 
                 } catch (error) {
                     Pop.error(error)
