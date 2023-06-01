@@ -10,7 +10,7 @@ class HousesService {
         AppState.houses = res.data.map(h => new House(h))
     }
     async createHouse(formData) {
-        
+        debugger
         const res = await api.post('api/houses', formData)
         logger.log('[HERE IS CARE YOU CREATED', res.data)
         AppState.houses.unshift(new House(res.data))

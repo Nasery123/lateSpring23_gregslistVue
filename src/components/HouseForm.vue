@@ -38,7 +38,7 @@
                 </div> -->
                 <!-- Note can use it for levels later not now -->
                 <select v-model="editable.levels" required class="form-select form-select-lg mb-3"
-                    aria-label=".form-select-lg example">
+                    aria-label=".form-select-lg example"> levels
                     <option v-for="levels in levels" :key="levels" :value="levels">{{ levels }}
                     </option>
                 </select>
@@ -75,6 +75,7 @@ export default {
 
             async submitHouseForm(){
                 try {
+                    
                     logger.log('[SUBMITTING HOUSE FORM]')
 
                     const formData = editable.value
